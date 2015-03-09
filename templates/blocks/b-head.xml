@@ -1,0 +1,12 @@
+<fest:template xmlns:fest="http://fest.mail.ru" context_name="json">
+	<fest:set name="b-head">
+		<div class="b-head">
+			<h1 class="b-logo">InstaContest</h1>
+			<ul class="b-menu">
+				<li class="b-menu__item"><a class="b-menu__link" href="#signup">Регистрация</a></li>
+				<li class="b-menu__item"><a class="b-menu__link" href="#login">Авторизация</a></li>
+				<li class="b-menu__item"><a class="b-menu__link" href="#scoreboard">Конкурсы</a></li>
+			</ul>
+		</div>
+	</fest:set>
+</fest:template>

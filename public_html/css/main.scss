@@ -1,7 +1,72 @@
-$color: red;
+$color-1: #A7DBD8;
+
 
 body {
-	width: 50%;
+	padding:0;
+	margin: 0;
+	background: #fff;
+	font-family: tahoma, arial, sans-serif;
+}
+
+.b-head {
+	width: 960px;
+	margin: 3% auto 0;
+	padding: 15px 0 10px;
+	&:after {
+		visibility: hidden;
+        display: block;
+        content: "";
+        clear: both;
+        height: 0;
+	}
+}
+
+.b-logo {
+	display: inline-block;
+	margin: 0;
+	font-family: georgia;
+	font-size: 28px;
+}
+
+.b-menu {
+	float: right;
+	padding:0;
+	margin:0;
+	list-style: none;
+
+	&__item {
+		display: inline-block;
+		margin: 0;
+		padding: 0;
+		// border: 1px solid #333;
+		// margin-left: -1px;
+	}
+	&__link {
+		display: block;
+		padding:7px 15px 8px;
+	}
+}
+
+.b-page {
+	background: $color-1;
+	min-height: 400px;
+}
+
+.b-panel {
+	width:960px;
 	margin: 0 auto;
-	background: #ccc;
+	padding: 20px 0;
+
+	&__left,
+	&__right {
+		display: inline-block;
+		width: 50%;	
+		//vertical-align: middle;	 
+	}
+}
+
+.b-footer {
+	width: 960px;
+	margin: 0 auto;
+	padding: 20px 0;
 }

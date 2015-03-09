@@ -23,7 +23,7 @@ define([
         },
         scoreboardAction: function () {
             // TODO
-            alert('alert');
+            mainView.show();  
         },
         gameAction: function () {
             // TODO

@@ -1,13 +1,13 @@
 module.exports = function (grunt) {
     grunt.initConfig({
-        shell: { 
+        shell: {
         	server: { /* Подзадача */
-			    command: 'bem server -r public_html'
+			    command: 'node server.js'
 			    /* запуск сервера */
 			}
 
         } /* grunt-shell */
-        , fest: { 
+        , fest: {
         	templates: { /* Подзадача */
 			    files: [{
 			        expand: true,

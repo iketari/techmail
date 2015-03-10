@@ -1,0 +1,7 @@
+<fest:template xmlns:fest="http://fest.mail.ru" context_name="json">
+	<fest:set name="b-foot">
+		<div class="b-footer">
+			&copy 2015, InstaContest
+		</div>
+	</fest:set>
+</fest:template>

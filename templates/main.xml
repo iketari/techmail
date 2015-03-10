@@ -1,0 +1,25 @@
+<fest:template xmlns:fest="http://fest.mail.ru" context_name="json">
+	<fest:include context="json" src="blocks/all.xml"/>
+
+	<fest:get name="b-head">
+
+	</fest:get>
+	<div class="b-page">
+		<div class="b-panel">
+			<div class="b-panel__left">
+				<div class="b-panel__ill">
+					<img src="https://img.imgsmail.ru/r/themes/t1086/settings__preview.HiDPi.jpg" />
+				</div>
+			</div>
+			<div class="b-panel__right">
+				<p>
+					Lorem ipsum dolor sit amet, sapien etiam, nunc amet dolor ac odio mauris justo. Luctus arcu, urna praesent at id quisque ac. Arcu massa vestibulum malesuada, integer vivamus elit eu mauris eu, cum eros quis aliquam nisl wisi.
+				</p>
+				<p>
+					Lorem ipsum dolor sit amet, sapien etiam, nunc amet dolor ac odio mauris justo. Luctus arcu, urna praesent at id quisque ac. Arcu massa vestibulum malesuada, integer vivamus elit eu mauris eu, cum eros quis aliquam nisl wisi.
+				</p>
+			</div>
+		</div>
+	</div>
+	<fest:get name="b-foot"></fest:get>
+</fest:template>
